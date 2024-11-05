@@ -3,98 +3,53 @@
 
 <head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-
-scale=1.0">
-   <title>Практическая работа 1</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Для медитации</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="resources/images/icon.png" type="image/png">
 </head>
 
 <body>
-   <h1 id = "main_title">Изучение HTML</h1>
+   <header>
+      <div class="logo">
+         <img src="resources/images/icon.png" alt="Логотип сайта" width="200" height="200">
+         <h1 id="main_title">Для медитации</h1>
+      </div>
+      <nav>
+         <ul>
+            <li><a href="#title_1">Якорь 1</a></li>
+            <li><a href="#title_2">Якорь 2</a></li>
+            <li><a href="#title_3">Якорь 2</a></li>
+         </ul>
+      </nav>
+   </header>
 
-   <!-- форматирование текстов -->
-   <h2 id = "formatting_title">Форматирование текстов</h2>
-   <br>Стандартное форматирование <br />
-   <br> <b> Жирный текст </b> <br />
-   <br> <strong> Сильный текст </strong> <br />
-   <br> <i> Курсив </i> <br />
-   <br> <em> Акцентированный текст </em> <br />
-   <br> 
-      <sub> Подстрочный </sub> 
-      <u> Неясный текст </u> 
-      <sup> Надстрочный текст </sup>
-   <br />
+   <main>
+      <section>
+         <h2>Первая секция сайта</h2>
+         <p>Здесь должен быть контент</p>
+      </section>
+      <section>
+         <h2>Вторая секция сайта</h2>
+         <p>Здесь должен быть контент</p>
+      </section>
+      <article>
+         <h2>Независимая секция сайта</h2>
+         <p>Здесь должен быть контент</p>
+      </article>
+      <aside>
+         <h2>Боковая секция сайта</h2>
+         <p>Здесь должен быть контент</p>
+      </aside>
+   </main>
 
-   <br>
-      <blockquote>
-         <p>"Какая то очень умная цитата"</p>
-      </blockquote>
-      <p><cite>- Автор</cite> ссылка на источник </p>
-   <br />
-   <br>
-      <p></p><abbr title="Massachusetts Institute of Technology">MIT</abbr> аббревиатура</p>
-   <br />
-
-   <!-- ссылки -->
-   <h2>Ссылки</h2>
-   <p>Ссылка на <a href="https://www.wikipedia.org/">википедию</a> в тексте</p>
-   <p><a href="tel:01234567890">Ссылка на номер телефона</a></p>
-   <p><a href="mailto:sendemail@gmail.com">Ссылка на письмо</a></p>
-
-   <!-- списки -->
-   <h2>Списки</h2>
-   <h3>Упорядоченный список и неупорядоченный вложенный</h3>
-   <ol type="I" start="10">
-      <li>Десять</li>
-      <li>Одиннадцать</li>
-      <li>Двеннадцать</li>
-      <li>Тринадцать</li>
-      <ul>
-         <li>Элемент</li>
-         <li>Элемент</li>
-      </ul>
-   </ol>
-
-   <h3>Список описаний</h3>
-   <dl>
-      <dt>HTML</dt>
-      <dd>Язык гипертекстовой разметки, используемый для создания веб-страниц.</dd>
-
-      <dt>CSS</dt>
-      <dd>Язык стилей, используемый для оформления и визуального представления веб-страниц.</dd>
-   
-      <dt>JavaScript</dt>
-      <dd>Язык программирования, используемый для создания интерактивных элементов на веб-страницах.</dd>
-   
-      <dt>Frontend</dt>
-      <dd>Часть веб-разработки, связанная с созданием пользовательского интерфейса и взаимодействием с пользователем.</dd>
-      <dd>Обычно включает работу с HTML, CSS и JavaScript.</dd>
-   
-      <dt>Backend</dt>
-      <dd>Часть веб-разработки, связанная с серверной логикой, базами данных и обработкой данных.</dd>
-      <dd>Отвечает за взаимодействие сервера с клиентом и хранение данных.</dd>
-   </dl>
-
-   <!-- изображения -->
-   <h2>Изображения</h2>
-
-   <a href="https://ru.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F">
-      <img src="https://hermestravel.lv/wp-content/uploads/2020/07/ushguli.jpg" width="220" height="277" alt="Gruzia">
-   </a>
-   <p>Изображение-ссылка на внешний ресурс</p>
-
-   <img src="https://cdn2.tu-tu.ru/image/pagetree_node_data/1/98aca74f8681fd627146b888a0b87f2b/" alt="Карта с областями" usemap="#imagemap" width="500" height="400">
-   <map name="imagemap">
-      <area shape="circle" coords="100,100,50" href="https://circle" alt="Круглая область">      
-      <area shape="rect" coords="200,50,350,150" href="https://rect" alt="Прямоугольная область">      
-      <area shape="poly" coords="400,200,450,250,500,200,450,150" href="https://poly" alt="Многоугольная область">
-   </map>
-   
-   <!-- якоря -->
-   <h2>Якоря</h2>
-   <pre>
-      <a href = "#main_title">Якорь на главный заголовок</a>
-      <a href = "#formatting_title">Якорь на форматирование текста</a>
-   </pre>
+   <footer>
+      <h2>Пример сайта "Для медитации". Никакие права не защищены</h2>
+      <address>
+         Разработчик: Арсений Михеев <br>
+         Email: <a href="mailto:arseniy.mikhep@gmail.com">arseniy.mikhep@gmail.com</a>
+      </address>
+   </footer>
 
 </body>
 

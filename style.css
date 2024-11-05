@@ -1,0 +1,98 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #333;
+}
+
+header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 290px;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   gap: 20px;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+   font-weight: 700;
+}
+
+nav ul li a:hover {
+   text-decoration: underline;
+}
+
+nav ul li a:visited {
+   color: lightgray;
+}
+
+nav ul li a:active {
+   color: red;
+}
+
+main {
+   padding: 20px;
+   margin-left: 290px;
+}
+
+section {
+   margin-bottom: 20px;
+   padding: 15px;
+   border: 1px solid #ccc;
+   background-color: #fff;
+}
+
+article {
+   margin-bottom: 20px;
+   padding: 15px;
+   border: 2px solid #0073e6;
+   background-color: #e6f7ff;
+}
+
+aside {
+   width: 250px;
+   height: 100vh;
+   color: #ccc;
+   position: fixed;
+   top: 0;
+   left: 0;
+   padding: 20px;
+   background-color: #e6f7ff;
+   border-right: 3px solid #ccc;
+}
+
+aside p {
+   color: #333;
+}
+
+footer {
+   background-color: #333;
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+
+footer address {
+   font-style: normal;
+}
+
+main section:first-of-type h2 {
+   color: #0073e6;
+}
+
+h2 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   color: #333;
+}
