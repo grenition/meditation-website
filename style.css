@@ -12,7 +12,22 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-left: 290px;
+   z-index: 1;
+   position: sticky;
+   height: 100px;
+   top: 0px;
+   border-bottom: 10px solid #7f868c;
+}
+
+header img{
+   position: relative;
+   top: 0px;   
+   left: 50px;
+}
+
+header h1{
+   font-size: 5vw;
+   text-align: center;
 }
 
 nav ul {
@@ -41,9 +56,19 @@ nav ul li a:active {
    color: red;
 }
 
+.split{
+   height: 100vh;
+   display: flex;
+   justify-content: space-between;
+}
+
+.split_mainGroup{
+   margin-left: 290px;
+   width: 100%;
+}
+
 main {
    padding: 20px;
-   margin-left: 290px;
 }
 
 section {
@@ -51,25 +76,37 @@ section {
    padding: 15px;
    border: 1px solid #ccc;
    background-color: #fff;
+   display: block;
+   min-height: 350px;
+}
+
+.float_left{
+   float: left;
 }
 
 article {
    margin-bottom: 20px;
    padding: 15px;
+   position: inherit;
    border: 2px solid #0073e6;
    background-color: #e6f7ff;
+   position: absolute;
+   width: 300px;
+   height: 300px;
+   z-index: 1;
 }
 
 aside {
    width: 250px;
    height: 100vh;
    color: #ccc;
-   position: fixed;
    top: 0;
    left: 0;
    padding: 20px;
    background-color: #e6f7ff;
    border-right: 3px solid #ccc;
+   position: fixed;
+   z-index: 1000;
 }
 
 aside p {
@@ -77,14 +114,21 @@ aside p {
 }
 
 footer {
+   width: 100%;
    background-color: #333;
    color: white;
    padding: 20px;
    text-align: center;
+   position: relative;
+   top: 90px;
 }
 
 footer address {
    font-style: normal;
+}
+
+footer h2{
+   color: #ccc;
 }
 
 main section:first-of-type h2 {
