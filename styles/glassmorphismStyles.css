@@ -4,61 +4,50 @@
     gap: 30px;
     padding: 40px 20px;
     background: var(--color-secondary);
+    flex-wrap: wrap;
 }
 
 .card {
-    margin-left: 50px;
-    margin-right: 50px;
     position: relative;
-    width: 300px;
-    height: 400px;
-    background: rgba(255, 255, 255, 0.2);
+    width: calc(33.333% - 60px);
+    min-width: 250px;
+    background: var(--color-transparent-white);
     border-radius: 15px;
-    backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px var(--color-shadow-light);
-    overflow: visible;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--color-border);
+    overflow: hidden;
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    z-index: 1;
-}
-
-.card::before {
-    content: "";
-    position: absolute;
-    top: -40%;
-    left: 25%;
-    width: 50%;
-    height: 180%;
-    background: linear-gradient(30deg, var(--color-accent), var(--color-primary));
-    opacity: 0.3;
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
-    transform: rotate(30deg);
-    box-shadow: 0 0 20px var(--color-accent);
-    z-index: -1;
-}
-
-.card:hover::before {
-    transform: rotate(0deg);
-    box-shadow: 0 0 20px var(--color-primary);
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-content {
     position: relative;
-    z-index: 2;
-    color: var(--color-text-light);
     padding: 20px;
     text-align: center;
+    z-index: 2;
+    color: var(--color-text);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: var(--color-accent);
+}
+
+.card p {
+    color: var(--color-text);
 }
 
 .decorative-squares {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    background: linear-gradient(30deg, var(--color-accent), var(--color-primary));
-    opacity: 0;
+    width: 120px;
+    height: 50px;
+    background: linear-gradient(45deg, var(--color-accent), var(--color-primary));
+    border-radius: 10px;
     backdrop-filter: blur(5px);
-    border-radius: 15px;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
 }
 
 .card:hover .decorative-squares {
@@ -67,28 +56,39 @@
 
 .decorative-squares.top {
     top: 10px;
-    left: 0%;
-    animation: moveLeftRightTop 3s infinite;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20px);
+    animation: moveLeftRightTop 3s infinite alternate;
 }
 
 .decorative-squares.bottom {
     bottom: 10px;
-    right: 0%;
-    animation: moveLeftRightBottom 3s infinite;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    animation: moveLeftRightBottom 3s infinite alternate;
 }
 
 @keyframes moveLeftRightTop {
-    0% { transform: translateX(-50%) translateY(-20px); }
-    50% { transform: translateX(-60%) translateY(-20px); }
-    100% { transform: translateX(-50%) translateY(-20px); }
+    0% { transform: translateX(-60%) translateY(-20px); }
+    100% { transform: translateX(-40%) translateY(-20px); }
 }
 
 @keyframes moveLeftRightBottom {
-    0% { transform: translateX(50%) translateY(20px); }
-    50% { transform: translateX(40%) translateY(20px); }
-    100% { transform: translateX(50%) translateY(20px); }
+    0% { transform: translateX(-40%) translateY(20px); }
+    100% { transform: translateX(-60%) translateY(20px); }
 }
 
+.glassmorphism-cards:hover .card {
+    filter: blur(2px);
+    transition: filter 0.3s ease;
+}
+
+.glassmorphism-cards .card:hover {
+    filter: none;
+    transform: scale(1.05);
+    box-shadow: 0 16px 32px var(--color-shadow-medium);
+    z-index: 1;
+}
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 16px 32px var(--color-shadow-medium);
