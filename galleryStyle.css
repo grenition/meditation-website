@@ -22,8 +22,8 @@
 
 .gallery-item .btn {
     margin-top: 20px;
-    background-color: #fff;
-    color: #000000;
+    background-color: var(--color-text-light);
+    color: var(--color-text);
 }
 
 .gallery-item:hover img {
@@ -38,7 +38,7 @@
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.6);
-    color: #fff;
+    color: var(--color-text-light);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,11 +57,13 @@
     margin: 0 0 10px 0;
     font-size: 20px;
     font-weight: 700;
+    color: var(--color-text-light);
 }
 
 .overlay p {
     margin: 0;
     font-size: 16px;
+    color: var(--color-text-light);
 }
 
 @media (max-width: 1024px) {

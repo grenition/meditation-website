@@ -1,11 +1,11 @@
 .buttons_section {
-    background-color: #f9f9f9;
+    background-color: var(--color-light-gray-alt);
     text-align: center;
 }
 
 .buttons_section h2 {
     margin-bottom: 30px;
-    color: #0073e6;
+    color: var(--color-button-blue);
 }
 
 .buttons-container {
@@ -20,8 +20,8 @@
     padding: 15px 30px;
     font-size: 16px;
     font-weight: 600;
-    color: #ffffff;
-    background-color: #0073e6;
+    color: var(--color-text-light);
+    background-color: var(--color-button-blue);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -30,20 +30,20 @@
 }
 
 .btn-hover-scale:hover {
-    background-color: #005bb5;
+    background-color: var(--color-blue-dark);
     transform: scale(1.1);
 }
 
 .btn-hover-border {
     background-color: transparent;
-    color: #0073e6;
-    border: 2px solid #0073e6;
+    color: var(--color-button-blue);
+    border: 2px solid var(--color-button-blue);
 }
 
 .btn-hover-border:hover {
-    background-color: #0073e6;
-    color: #ffffff;
-    border-color: #005bb5;
+    background-color: var(--color-button-blue);
+    color: var(--color-text-light);
+    border-color: var(--color-blue-dark);
 }
 
 .btn-hover-arrow::after {
@@ -66,7 +66,7 @@
     height: 100%;
     top: 0;
     left: -100%;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: var(--color-transparent-white);
     transition: all 0.3s ease;
 }
 
@@ -76,11 +76,11 @@
 
 .btn-hover-slide {
     overflow: hidden;
-    color: #ffffff;
+    color: var(--color-text-light);
 }
 
 .btn-hover-slide:hover {
-    color: #ffeb3b;
+    color: var(--color-yellow);
 }
 
 @media (max-width: 768px) {
