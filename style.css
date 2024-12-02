@@ -199,16 +199,6 @@ section iframe {
    display: none;
 }
 
-
-@media (max-width: 600px) {
-   .gallery-container img {
-      width: 100%;
-   }
-   .gallery-container {
-      gap: 10px;
-   }
-}
-
 @media (max-width: 768px) {
    .menu-icon {
       display: block;
