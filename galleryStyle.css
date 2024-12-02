@@ -1,64 +1,78 @@
-.gallery_section {
-    padding: 40px 20px;
-    background-color: #f0f8ff;
-    text-align: center;
-}
-
-.gallery_section h2 {
-    margin-bottom: 30px;
-    color: #0073e6;
-}
-
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
 }
 
 .gallery-item {
-    flex: 1 1 calc(33.333% - 40px);
-    box-sizing: border-box;
-    max-width: calc(33.333% - 40px);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    width: calc(33.333% - 20px);
 }
 
 .gallery-item img {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 100%;
     object-fit: cover;
-    transition: transform 0.3s ease;
+    display: block;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.gallery-item img:hover {
+.gallery-item .btn {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #000000;
+}
+
+.gallery-item:hover img {
     transform: scale(1.05);
+    filter: brightness(70%);
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.overlay p {
+    margin: 0;
+    font-size: 16px;
+}
 
 @media (max-width: 1024px) {
     .gallery-item {
-        flex: 1 1 calc(50% - 40px);
-        max-width: calc(50% - 40px);
+        width: calc(50% - 20px);
     }
 }
 
 @media (max-width: 600px) {
     .gallery-item {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
-
-    .gallery-section {
-        padding: 20px 10px;
-    }
-}
-
-
-@media (max-width: 600px) {
-    .gallery-container img {
         width: 100%;
     }
-    .gallery-container {
-        gap: 10px;
-    }
 }
+
