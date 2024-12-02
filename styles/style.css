@@ -38,6 +38,16 @@ h2 {
    font-weight: 700;
    color: var(--color-primary);
 }
+h3 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   color: var(--color-primary);
+}
+p {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 200;
+   color: var(--color-text);
+}
 
 header {
    background-color: var(--color-primary);
@@ -203,6 +213,7 @@ main section:first-of-type h2 {
    padding: 2rem;
    width: 95%;
    border-radius: 10px;
+   overflow: hidden;
 }
 
 section iframe {
