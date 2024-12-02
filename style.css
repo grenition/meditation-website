@@ -178,7 +178,6 @@ aside p {
 }
 
 footer {
-   width: 100%;
    background-color: var(--color-primary);
    color: var(--color-text-light);
    padding: 20px;
