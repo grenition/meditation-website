@@ -1,0 +1,111 @@
+.highlighted-cards-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    background: var(--color-secondary);
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.highlighted-cards-section .highlighted-card {
+    position: relative;
+    width: calc(33.333% - 60px);
+    min-width: 250px; 
+    background: var(--color-transparent-white);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px var(--color-shadow-light);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--color-border);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+    z-index: 0;
+}
+
+.highlighted-cards-section .highlighted-card .card-content {
+    padding: 20px;
+    text-align: center;
+    color: var(--color-text);
+}
+
+.highlighted-cards-section .highlighted-card h3 {
+    margin-top: 0;
+    color: var(--color-accent);
+}
+
+.highlighted-cards-section .highlighted-card p {
+    color: var(--color-text);
+}
+
+.highlighted-cards-section .highlighted-card::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(45deg, var(--color-accent), var(--color-primary));
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    animation: borderGlow 2s infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 1; 
+}
+
+@keyframes borderGlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.highlighted-cards-section:hover .highlighted-card {
+    filter: blur(2px);
+    transition: filter 0.3s ease;
+}
+
+.highlighted-cards-section .highlighted-card:hover {
+    filter: none;
+    transform: scale(1.05);
+    box-shadow: 0 16px 32px var(--color-shadow-medium);
+    z-index: 1;
+}
+
+.highlighted-cards-section .highlighted-card:hover::before {
+    opacity: 1;
+}
+
+.highlighted-cards-section .highlighted-card:hover ~ .highlighted-card {
+    filter: brightness(0.5);
+    transition: filter 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+    .highlighted-cards-section .highlighted-card {
+        width: calc(50% - 60px);
+    }
+}
+
+@media (max-width: 768px) {
+    .highlighted-cards-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlighted-cards-section .highlighted-card {
+        width: calc(100% - 40px);
+        margin: 20px 0;
+    }
+}
