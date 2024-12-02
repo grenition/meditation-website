@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="formStyle.css">
     <link rel="stylesheet" href="galleryStyle.css">
     <link rel="stylesheet" href="buttonsStyle.css">
+    <link rel="stylesheet" href="notificationsStyle.css">
     <link rel="icon" href="resources/images/" type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
@@ -24,6 +26,20 @@
         <header class="horizontal_container">
             <img src="resources/images/icon.png" alt="Логотип сайта" width="100" height="100">
             <h1 id="main_title">Для медитации</h1>
+            <div class="notification-container">
+                <button class="notification-button">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-count">3</span>
+                </button>
+                <div class="notification-list">
+                    <h3>Уведомления</h3>
+                    <ul>
+                        <li><button class="notification-item">Уведомление 1</button></li>
+                        <li><button class="notification-item">Уведомление 2</button></li>
+                        <li><button class="notification-item">Уведомление 3</button></li>
+                    </ul>
+                </div>
+            </div>
         </header>
         <main class="vertical_container">
             <section class="section">
