@@ -6,10 +6,6 @@
     --header-background: #FFFFFF;
     --footer-background: #3E4E5E;
     --footer-text-color: #FFFFFF;
-
-    --breakpoint-lg: 1200px;
-    --breakpoint-md: 1024px;
-    --breakpoint-sm: 768px;
 }
 
 body {
@@ -155,5 +151,62 @@ footer p {
 @media (max-width: 768px) {
     main .post {
         flex: 1 1 100%;
+    }
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    background-color: var(--text-color);
+    border-radius: 3px;
+}
+
+.mobile-nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: var(--header-background);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-nav-links li {
+    margin: 0;
+}
+
+.mobile-nav-links li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.mobile-nav-links li a:hover {
+    background-color: var(--background-color);
+}
+
+@media (max-width: 768px) {
+    header nav {
+        position: relative;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
     }
 }
