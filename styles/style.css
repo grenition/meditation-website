@@ -37,25 +37,32 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
-h2{
+
+h2 {
     font-size: 32px;
 }
-h3{
+
+h3 {
     font-size: 24px;
 }
-h4{
+
+h4 {
     font-size: 20px;
 }
-h5{
+
+h5 {
     font-size: 18px;
 }
-p{
+
+p {
     font-size: 18px;
 }
-a{
+
+a {
     font-size: 18px;
 }
-li{
+
+li {
     font-size: 18px;
 }
 
@@ -86,7 +93,7 @@ footer .footer-content {
     gap: 10px;
 }
 
-footer .social-media{
+footer .social-media {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -452,7 +459,7 @@ main .programs .btn {
     flex-direction: column;
 }
 
-.block-image{
+.block-image {
     flex: 1 1 60%;
 }
 
@@ -523,7 +530,7 @@ main .programs .btn {
     position: relative;
 }
 
-.post-space{
+.post-space {
     height: 300px;
 }
 
@@ -556,14 +563,14 @@ main .programs .btn {
     z-index: 1000;
 }
 
-.post-data-unit{
+.post-data-unit {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     gap: 20px;
 }
 
-.instruction ol li{
+.instruction ol li {
     margin-left: 20px;
 }
 
@@ -614,6 +621,7 @@ main .programs .btn {
 
 .social-button:hover {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .social-button.youtube {
@@ -640,6 +648,14 @@ main .programs .btn {
     background: linear-gradient(to bottom, #6c89b3, #4c75a3);
 }
 
+.social-button.google {
+    background-color: #db4a39;
+}
+
+.social-button.google:hover::before {
+    background: linear-gradient(to bottom, rgba(202, 71, 71, 0.76), #dc3838);
+}
+
 .social-button:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -662,7 +678,7 @@ main .programs .btn {
     overflow: hidden;
     border-radius: 150px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: border-radius 0.5s ease-out,transform 0.3s ease, box-shadow 0.3s ease, width 0.5s ease, height 0.5s ease;
+    transition: border-radius 0.5s ease-out, transform 0.3s ease, box-shadow 0.3s ease, width 0.5s ease, height 0.5s ease;
     cursor: pointer;
     background-color: #FFFFFF;
 }
@@ -700,8 +716,8 @@ main .programs .btn {
 }
 
 .person-card.expanded .info {
-    transform: translateY(0); 
-    font-size: 18px; 
+    transform: translateY(0);
+    font-size: 18px;
 }
 
 .person-card .close-btn {
@@ -720,9 +736,101 @@ main .programs .btn {
 }
 
 .person-card.expanded .close-btn {
-    display: flex; 
+    display: flex;
 }
 
 .person-card .close-btn:hover {
     background: rgba(255, 255, 255, 1);
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.auth-container h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: var(--text-color);
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    margin: 0;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(108, 138, 155, 0.5);
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login p {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#particleCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    z-index: -1;
+    background: var(--background-color);
+    pointer-events: none;
 }
