@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const options = {
         root: null,
-        rootMargin: '0px',
-        threshold: 0.1
+        rootMargin: '-50px',
+        threshold: 0.5
     };
 
     const observer = new IntersectionObserver(handleIntersect, options);

@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const contentContainer = document.querySelector('main .content');
 
     fetch('elements/post-template.html')
@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 .catch(error => {
                     console.error('Error loading:', error);
                 });
+            
         })
         .catch(error => {
             console.error('Error loading:', error);
