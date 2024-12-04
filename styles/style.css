@@ -365,3 +365,81 @@ main .programs .btn {
         flex: 1 1 100%;
     }
 }
+
+.block {
+    overflow: visible;
+    margin-bottom: 60px;
+}
+
+.block-content {
+    display: flex;
+    align-items: stretch;
+    gap: 40px;
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.block.reverse .block-content {
+    flex-direction: row-reverse;
+    transform: translateX(50px);
+}
+
+.block-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    max-height: 500px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.block-text {
+    flex: 1 1 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block-image{
+    flex: 1 1 60%;
+}
+
+.block-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.block-text p, .block-text ul, .block-text ol {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.block.visible .block-content {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@media (max-width: 1024px) {
+    .block-content {
+        flex-direction: column;
+    }
+
+    .block.reverse .block-content {
+        flex-direction: column;
+    }
+
+    .block-image, .block-text {
+        flex: none;
+        width: 100%;
+    }
+
+    .block-image, .block-text {
+        order: 0;
+    }
+
+    .block.visible .block-content {
+        transform: translateY(0);
+    }
+}
