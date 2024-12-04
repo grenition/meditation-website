@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Детали программы</title>
@@ -9,25 +10,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<div id="header-placeholder"></div>
+<header id="header-placeholder"></header>
 
-<main>
+<div class="post-header">
+    <img id="post-image" alt="Изображение поста">
+</div>
+<div class="post-content">
+    <div class="post-space"></div>
     <div class="post-detail">
-        <img id="post-image" src="" alt="">
         <h1 id="post-title">Заголовок поста</h1>
-        <p id="post-author">Автор: </p>
+        <p id="post-author"><strong>Автор:</strong> Иван Иванов</p>
         <p id="post-full-description">Полное описание поста...</p>
-        <p id="post-training-duration">Продолжительность тренировки...</p>
-        <p id="post-purpose">Цель тренировки...</p>
-        <a href="programms.html" class="btn">Назад</a>
+        <p id="post-training-duration"><strong>Продолжительность:</strong> 15 минут</p>
+        <p id="post-purpose"><strong>Цель:</strong> Расслабление</p>
         <h2 class="instruction">Инструкция</h2>
+        <a href="programms.html" class="btn">Назад</a>
     </div>
-</main>
+</div>
 
-<div id="footer-placeholder"></div>
+<footer id="footer-placeholder"></footer>
 
 <script src="scripts/load-header-footer.js"></script>
 <script src="scripts/load-post-detail.js"></script>
+<script src="scripts/parallax-effect.js"></script>
+
 </body>
+
 </html>
