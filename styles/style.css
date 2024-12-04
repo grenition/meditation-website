@@ -55,6 +55,59 @@ p{
 a{
     font-size: 18px;
 }
+li{
+    font-size: 18px;
+}
+
+main.post-content {
+    flex: 1;
+}
+
+footer {
+    background-color: var(--footer-background);
+    color: var(--footer-text-color);
+    text-align: center;
+    position: relative;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    margin: 20px 0;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+footer .social-media a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+footer .social-media a img:hover {
+    transform: scale(1.1);
+}
+
+footer address {
+    margin-bottom: 20px;
+}
 
 header {
     background-color: var(--header-background);
@@ -62,6 +115,7 @@ header {
     width: 100%;
     height: 70px;
     z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header nav {
@@ -177,18 +231,6 @@ button:hover, .btn:hover {
     background-color: var(--primary-color);
     color: #FFFFFF;
     transform: scale(1.05);
-}
-
-footer {
-    background-color: var(--footer-background);
-    color: var(--footer-text-color);
-    padding: 20px 0;
-    text-align: center;
-    position: relative;
-}
-
-footer p {
-    margin: 0;
 }
 
 @media (max-width: 1024px) {
@@ -492,26 +534,12 @@ main .programs .btn {
     background: var(--header-background);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-}
-
-.post-detail p, .post-detail h2, .post-detail ol {
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-.post-detail ol {
-    list-style-type: decimal;
-    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .post-detail .btn {
-    display: inline-block;
-    background: var(--primary-color);
-    color: var(--footer-text-color);
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background 0.3s ease-in-out;
+    width: 80px;
 }
 
 .post-detail .btn:hover {
@@ -526,4 +554,94 @@ main .programs .btn {
     position: fixed;
     top: 0;
     z-index: 1000;
+}
+
+.post-data-unit{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.instruction ol li{
+    margin-left: 20px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.social-button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-light);
+    text-decoration: none;
+    overflow: hidden;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-button i {
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+}
+
+.social-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    transition: height 0.3s ease, background 0.3s ease;
+    z-index: 1;
+}
+
+.social-button:hover::before {
+    height: 100%;
+    background: linear-gradient(to bottom, var(--color-accent), var(--color-primary));
+}
+
+.social-button:hover {
+    cursor: pointer;
+}
+
+.social-button.youtube {
+    background-color: rgba(255, 85, 85, 0.8);
+}
+
+.social-button.youtube:hover::before {
+    background: linear-gradient(to bottom, #FF4C4C, #FF0000);
+}
+
+.social-button.telegram {
+    background-color: rgba(46, 125, 172, 0.8);
+}
+
+.social-button.telegram:hover::before {
+    background: linear-gradient(to bottom, #00aaff, #0088cc);
+}
+
+.social-button.vk {
+    background-color: rgba(77, 106, 143, 0.8);
+}
+
+.social-button.vk:hover::before {
+    background: linear-gradient(to bottom, #6c89b3, #4c75a3);
+}
+
+.social-button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
