@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Иван Иванов",
+    "image": "https://plus.unsplash.com/premium_photo-1678197937465-bdbc4ed95815?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Фитнес тренер из Симферополя. Специализируется на восстановительных тренировках и функциональной подготовке."
+  },
+  {
+    "id": 2,
+    "name": "Анна Петрова",
+    "image": "https://images.unsplash.com/photo-1445053023192-8d45cb66099d?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Диетолог и нутрициолог. Помогает людям составить индивидуальный план питания для улучшения здоровья."
+  },
+  {
+    "id": 3,
+    "name": "Сергей Ковалев",
+    "image": "https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=3578&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Профессиональный фотограф, специализирующийся на пейзажах и портретах. Работает по всему миру."
+  },
+  {
+    "id": 4,
+    "name": "Елена Смирнова",
+    "image": "https://images.unsplash.com/photo-1523387282479-ae7166314e62?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Инструктор по йоге с опытом более 10 лет. Помогает своим ученикам находить баланс через практики осознанности."
+  },
+  {
+    "id": 5,
+    "name": "Михаил Новиков",
+    "image": "https://images.unsplash.com/photo-1542385262-cdf06b302c2c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Мастер медитации и дыхательных практик. Работает с группами для улучшения эмоционального состояния."
+  },
+  {
+    "id": 6,
+    "name": "Ксения Белова",
+    "image": "https://images.unsplash.com/photo-1564564295391-7f24f26f568b?q=80&w=3570&auto=format&fit=crop",
+    "description": "Преподаватель хатха-йоги. Любит совмещать занятия с элементами медитации для внутреннего спокойствия."
+  },
+  {
+    "id": 7,
+    "name": "Алексей Зайцев",
+    "image": "https://images.unsplash.com/photo-1419717567666-6e559d5e0339?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Специалист по йогатерапии. Помогает людям восстанавливать здоровье с помощью индивидуальных занятий."
+  },
+  {
+    "id": 8,
+    "name": "Дарья Волкова",
+    "image": "https://images.unsplash.com/photo-1611200945005-403b70229452?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Практик медитации и ментор по осознанности. Организует медитативные ретриты в горах."
+  },
+  {
+    "id": 9,
+    "name": "Ольга Николаева",
+    "image": "https://images.unsplash.com/uploads/1413395496082cbc91228/43e39040?q=80&w=1536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Инструктор по кундалини-йоге. Ведёт занятия по раскрытию внутренней энергии через дыхательные практики."
+  }
+]

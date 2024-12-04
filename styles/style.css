@@ -645,3 +645,84 @@ main .programs .btn {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.person-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 150px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: border-radius 0.5s ease-out,transform 0.3s ease, box-shadow 0.3s ease, width 0.5s ease, height 0.5s ease;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.person-card:hover {
+    transform: scale(1.05);
+}
+
+.person-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.person-card.expanded {
+    height: 500px;
+    border-radius: 16px;
+}
+
+.person-card.expanded:hover {
+    transform: scale(1.0);
+}
+
+.person-card.expanded img {
+    height: 50%;
+}
+
+.person-card .info {
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    text-align: center;
+    z-index: 1;
+}
+
+.person-card.expanded .info {
+    transform: translateY(0); 
+    font-size: 18px; 
+}
+
+.person-card .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.person-card.expanded .close-btn {
+    display: flex; 
+}
+
+.person-card .close-btn:hover {
+    background: rgba(255, 255, 255, 1);
+}
