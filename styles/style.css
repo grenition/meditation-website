@@ -67,8 +67,8 @@ header {
 header nav {
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    padding: 15px 30px;
+    align-items: center;
+    padding: 18px 30px;
 }
 
 header nav .logo {
@@ -119,14 +119,18 @@ main .post {
     flex: 1 1 calc((100% - 40px) / 3);
 }
 
-.post .image-container {
+.image-container {
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-.post .image-container img {
+.post .image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -134,9 +138,10 @@ main .post {
     transition: transform 0.2s ease-in-out;
 }
 
-.post .image-container:hover img {
+.image-container:hover img {
     transform: scale(1.05);
 }
+
 main .post h2 {
     margin: 0 0 10px 0;
     font-weight: normal;
@@ -290,5 +295,73 @@ footer p {
 
     .nav-links {
         display: flex;
+    }
+}
+
+main section {
+    margin-bottom: 60px;
+}
+
+main section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+main section p, main section ul, main section ol {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+main section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.text-image {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-image .text {
+    flex: 1 1 400px;
+}
+
+.text-image .image {
+    flex: 1 1 400px;
+}
+
+.text-image .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+main .benefits ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+main .how-to-start ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+main .programs .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+    .text-image {
+        flex-direction: column;
+    }
+
+    .text-image .text, .text-image .image {
+        flex: 1 1 100%;
     }
 }
