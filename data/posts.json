@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Утреннее пробуждение",
+    "shortDescription": "Начните свой день с 15-минутной утренней медитации для повышения энергии и настроения.",
+    "fullDescription": "Полное описание программы 'Утреннее пробуждение'...",
+    "author": "Иван Иванов",
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVkaXRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": 2,
+    "title": "Осознанное дыхание",
+    "shortDescription": "Укрепите концентрацию и снизьте стресс с помощью 20-минутной практики осознанного дыхания.",
+    "fullDescription": "Полное описание программы 'Осознанное дыхание'...",
+    "author": "Мария Петрова",
+    "image": "https://images.unsplash.com/photo-1529693662653-9d480530a697?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1lZGl0YXRpb258ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": 3,
+    "title": "Вечернее расслабление",
+    "shortDescription": "Расслабьтесь перед сном с этой 30-минутной медитацией для глубокого сна.",
+    "fullDescription": "Полное описание программы 'Вечернее расслабление'...",
+    "author": "Алексей Смирнов",
+    "image": "https://images.unsplash.com/photo-1444312645910-ffa973656eba?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWVkaXRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+  }
+]
