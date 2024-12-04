@@ -522,12 +522,24 @@ main .programs .btn {
     filter: blur(5px);
 }
 
+@keyframes postIn {
+    from {
+        transform: translateY(20vh);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0vh);
+    }
+}
+
 .post-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 1;
     position: relative;
+    animation: postIn 1s ease forwards;
 }
 
 .post-space {
