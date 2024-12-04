@@ -13,6 +13,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
                 <div class="close-btn">✕</div>
             `;
+            
+            const img = card.querySelector('img');
+            if (img.complete) {
+                img.classList.add("loaded");
+            } else {
+                img.addEventListener("load", () => {
+                    img.classList.add("loaded");
+                });
+            }
             gallery.appendChild(card);
 
             const closeButton = card.querySelector(".close-btn");
@@ -24,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
 
             closeButton.addEventListener("click", (e) => {
-                e.stopPropagation(); // Не триггерить клик на карточке
+                e.stopPropagation();
                 card.classList.remove("expanded");
             });
         });

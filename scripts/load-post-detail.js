@@ -30,6 +30,15 @@ document.addEventListener('DOMContentLoaded', function() {
             postImage.style.display = 'none';
         }
 
+        
+        if (postImage.complete) {
+            postImage.classList.add("loaded");
+        } else {
+            postImage.addEventListener("load", () => {
+                postImage.classList.add("loaded");
+            });
+        }
+
         const postTitle = document.getElementById('post-title');
         postTitle.textContent = post.title;
 

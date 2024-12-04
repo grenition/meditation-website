@@ -17,6 +17,14 @@ document.addEventListener('DOMContentLoaded', function () {
                         const img = postElement.querySelector('img');
                         img.src = postData.image;
                         img.alt = postData.title;
+                        
+                        if (img.complete) {
+                            img.classList.add("loaded");
+                        } else {
+                            img.addEventListener("load", () => {
+                                img.classList.add("loaded");
+                            });
+                        }
 
                         const title = postElement.querySelector('h2');
                         title.textContent = postData.title;
