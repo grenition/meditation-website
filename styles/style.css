@@ -6,6 +6,7 @@
     --header-background: #FFFFFF;
     --footer-background: #3E4E5E;
     --footer-text-color: #FFFFFF;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -32,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
 header {
     background-color: var(--header-background);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    align-content: center;
+    height: 70px;
+    width: 100%;
 }
 
 header nav {
@@ -70,7 +75,7 @@ header nav ul li a:hover {
 
 main {
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 80px 20px;
 }
 
 main .content {
@@ -124,10 +129,21 @@ button, .btn {
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 button:hover, .btn:hover {
     background-color: var(--secondary-color);
+}
+
+button:focus, .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+button:active, .btn:active {
+    outline: none;
+    box-shadow: none;
 }
 
 footer {
@@ -161,6 +177,8 @@ footer p {
     width: 30px;
     height: 21px;
     cursor: pointer;
+    transition: transform 0.3s ease-out;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .hamburger span {
@@ -168,29 +186,60 @@ footer p {
     height: 3px;
     background-color: var(--text-color);
     border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
 }
 
 .mobile-nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: var(--header-background);
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    padding: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--header-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+    z-index: 999;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+}
+
+.mobile-nav-links.active {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .mobile-nav-links li {
+    width: 100%;
+    padding: 0;
     margin: 0;
 }
 
 .mobile-nav-links li a {
     display: block;
-    padding: 10px 20px;
+    padding: 15px 20px;
     font-size: 16px;
     color: var(--text-color);
+    text-align: center;
+    border-bottom: 1px solid #E0E0E0;
 }
 
 .mobile-nav-links li a:hover {
@@ -207,6 +256,20 @@ footer p {
     }
 
     .hamburger {
+        display: flex;
+    }
+}
+
+@media (min-width: 769px) {
+    .mobile-nav-links {
+        display: none !important;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav-links {
         display: flex;
     }
 }
