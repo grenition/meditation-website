@@ -1,56 +1,56 @@
 [
   {
     "id": 1,
-    "name": "Иван Иванов",
+    "name": "John Smith",
     "image": "https://plus.unsplash.com/premium_photo-1678197937465-bdbc4ed95815?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Фитнес тренер из Симферополя. Специализируется на восстановительных тренировках и функциональной подготовке."
+    "description": "Fitness trainer from Simferopol. Specializes in recovery training and functional preparation."
   },
   {
     "id": 2,
-    "name": "Анна Петрова",
+    "name": "Anna Petrova",
     "image": "https://images.unsplash.com/photo-1445053023192-8d45cb66099d?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Диетолог и нутрициолог. Помогает людям составить индивидуальный план питания для улучшения здоровья."
+    "description": "Dietitian and nutritionist. Helps people create individual nutrition plans for better health."
   },
   {
     "id": 3,
-    "name": "Сергей Ковалев",
+    "name": "Sergey Kovalev",
     "image": "https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=3578&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Профессиональный фотограф, специализирующийся на пейзажах и портретах. Работает по всему миру."
+    "description": "Professional photographer specializing in landscapes and portraits. Works worldwide."
   },
   {
     "id": 4,
-    "name": "Елена Смирнова",
+    "name": "Elena Smirnova",
     "image": "https://images.unsplash.com/photo-1523387282479-ae7166314e62?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Инструктор по йоге с опытом более 10 лет. Помогает своим ученикам находить баланс через практики осознанности."
+    "description": "Yoga instructor with over 10 years of experience. Helps her students find balance through mindfulness practices."
   },
   {
     "id": 5,
-    "name": "Михаил Новиков",
+    "name": "Mikhail Novikov",
     "image": "https://images.unsplash.com/photo-1542385262-cdf06b302c2c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Мастер медитации и дыхательных практик. Работает с группами для улучшения эмоционального состояния."
+    "description": "Meditation and breathing practices master. Works with groups to improve emotional state."
   },
   {
     "id": 6,
-    "name": "Ксения Белова",
+    "name": "Ksenia Belova",
     "image": "https://images.unsplash.com/photo-1564564295391-7f24f26f568b?q=80&w=3570&auto=format&fit=crop",
-    "description": "Преподаватель хатха-йоги. Любит совмещать занятия с элементами медитации для внутреннего спокойствия."
+    "description": "Hatha yoga teacher. Loves to combine classes with meditation elements for inner peace."
   },
   {
     "id": 7,
-    "name": "Алексей Зайцев",
+    "name": "Alexey Zaitsev",
     "image": "https://images.unsplash.com/photo-1419717567666-6e559d5e0339?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Специалист по йогатерапии. Помогает людям восстанавливать здоровье с помощью индивидуальных занятий."
+    "description": "Yoga therapy specialist. Helps people restore health through individual sessions."
   },
   {
     "id": 8,
-    "name": "Дарья Волкова",
+    "name": "Daria Volkova",
     "image": "https://images.unsplash.com/photo-1611200945005-403b70229452?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Практик медитации и ментор по осознанности. Организует медитативные ретриты в горах."
+    "description": "Meditation practitioner and mindfulness mentor. Organizes meditation retreats in the mountains."
   },
   {
     "id": 9,
-    "name": "Ольга Николаева",
+    "name": "Olga Nikolaeva",
     "image": "https://images.unsplash.com/uploads/1413395496082cbc91228/43e39040?q=80&w=1536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description": "Инструктор по кундалини-йоге. Ведёт занятия по раскрытию внутренней энергии через дыхательные практики."
+    "description": "Kundalini yoga instructor. Leads classes on unlocking inner energy through breathing practices."
   }
 ]

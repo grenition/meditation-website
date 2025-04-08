@@ -1,136 +1,136 @@
 [
   {
     "id": "1",
-    "title": "Медитация для начинающих",
-    "author": "Иван Иванов",
+    "title": "Meditation for Beginners",
+    "author": "John Smith",
     "image": "https://images.unsplash.com/photo-1461766705442-58d58276121a?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fullDescription": "Эта программа идеально подходит для тех, кто только начинает свой путь в медитации. Она поможет вам расслабиться, сосредоточиться на дыхании и научиться отпускать посторонние мысли. Практика проста и занимает всего 15 минут.",
-    "trainingDuration": "15 минут",
-    "purpose": "Расслабление",
+    "fullDescription": "This program is perfect for those who are just starting their meditation journey. It will help you relax, focus on your breathing, and learn to let go of distracting thoughts. The practice is simple and takes only 15 minutes.",
+    "trainingDuration": "15 minutes",
+    "purpose": "Relaxation",
     "instructions": [
-      "Найдите тихое место и сядьте в удобную позу. Убедитесь, что ваша спина прямая, а руки расслаблены.",
-      "Закройте глаза и сделайте несколько глубоких вдохов и выдохов, чтобы расслабиться.",
-      "Сосредоточьтесь на своём дыхании. Наблюдайте за тем, как воздух входит и выходит, не меняя его ритма.",
-      "Если появляются посторонние мысли, просто отметьте их и мягко вернитесь к наблюдению за дыханием.",
-      "После завершения медитации сделайте ещё несколько глубоких вдохов и откройте глаза."
+      "Find a quiet place and sit in a comfortable position. Make sure your back is straight and your hands are relaxed.",
+      "Close your eyes and take a few deep breaths to relax.",
+      "Focus on your breathing. Observe how the air enters and exits without changing its rhythm.",
+      "If distracting thoughts appear, simply note them and gently return to observing your breath.",
+      "After completing the meditation, take a few more deep breaths and open your eyes."
     ]
   },
   {
     "id": "2",
-    "title": "Снятие стресса за 5 минут",
-    "author": "Анна Петрова",
+    "title": "Stress Relief in 5 Minutes",
+    "author": "Anna Petrova",
     "image": "https://images.unsplash.com/photo-1533537841959-705741f3d3a5?q=80&w=3576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fullDescription": "Эта короткая медитация идеально подходит для быстрого снятия стресса в напряжённые моменты. Она занимает всего 5 минут и помогает расслабить тело, успокоить ум и вернуть ясность мыслей. Вы можете выполнять её где угодно — дома, в офисе или на улице.",
-    "trainingDuration": "5 минут",
-    "purpose": "Снятие стресса",
+    "fullDescription": "This short meditation is perfect for quick stress relief in tense moments. It takes only 5 minutes and helps relax the body, calm the mind, and restore mental clarity. You can practice it anywhere - at home, in the office, or outdoors.",
+    "trainingDuration": "5 minutes",
+    "purpose": "Stress Relief",
     "instructions": [
-      "Найдите место, где вас не будут отвлекать, и сядьте или встаньте в удобной позе.",
-      "Закройте глаза и начните с трёх глубоких вдохов через нос и выдохов через рот.",
-      "Сосредоточьтесь на своём дыхании, следя за тем, как воздух наполняет ваши лёгкие и плавно выходит.",
-      "На каждом выдохе представляйте, как напряжение уходит из вашего тела. Начните с головы и двигайтесь вниз до кончиков пальцев ног.",
-      "После завершения медитации медленно откройте глаза, улыбнитесь и поблагодарите себя за эти несколько минут спокойствия."
+      "Find a place where you won't be distracted and sit or stand in a comfortable position.",
+      "Close your eyes and start with three deep breaths through your nose and exhales through your mouth.",
+      "Focus on your breathing, observing how the air fills your lungs and smoothly exits.",
+      "With each exhale, imagine tension leaving your body. Start from your head and move down to your toes.",
+      "After completing the meditation, slowly open your eyes, smile, and thank yourself for these few minutes of peace."
     ]
   },
   {
     "id": "3",
-    "title": "Гармония сна",
-    "author": "Сергей Ковалев",
+    "title": "Sleep Harmony",
+    "author": "Sergey Kovalev",
     "image": "https://images.unsplash.com/photo-1464226066583-1bc72dd433a3?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fullDescription": "Эта медитация предназначена для глубокого расслабления перед сном. Она помогает снять напряжение, успокоить ум и подготовить тело к спокойному и восстанавливающему сну. Практика идеально подходит для выполнения вечером, когда вы уже готовы ко сну.",
-    "trainingDuration": "20 минут",
-    "purpose": "Улучшение сна",
+    "fullDescription": "This meditation is designed for deep relaxation before sleep. It helps relieve tension, calm the mind, and prepare the body for peaceful and restorative sleep. The practice is ideal for evening use when you're ready for bed.",
+    "trainingDuration": "20 minutes",
+    "purpose": "Sleep Improvement",
     "instructions": [
-      "Лягте в кровать или найдите удобное место, где вы можете расслабиться. Убедитесь, что вас ничто не отвлекает.",
-      "Закройте глаза и сделайте три глубоких вдоха через нос и медленных выдоха через рот, чтобы настроиться на расслабление.",
-      "Сосредоточьтесь на ощущениях в своём теле. Начните с головы и постепенно перемещайте внимание вниз по телу, замечая, как каждая часть расслабляется.",
-      "Если в голове появляются мысли, просто отметьте их и мягко вернитесь к наблюдению за своим дыханием.",
-      "Представьте, что вы находитесь в спокойном и уютном месте, например, в лесу или на берегу моря. Почувствуйте покой и умиротворение.",
-      "Когда почувствуете, что готовы, позвольте себе погрузиться в сон."
+      "Lie in bed or find a comfortable place where you can relax. Make sure nothing distracts you.",
+      "Close your eyes and take three deep breaths through your nose and slow exhales through your mouth to prepare for relaxation.",
+      "Focus on the sensations in your body. Start from your head and gradually move your attention down your body, noticing how each part relaxes.",
+      "If thoughts appear in your mind, simply note them and gently return to observing your breathing.",
+      "Imagine you're in a calm and cozy place, such as a forest or by the sea. Feel the peace and tranquility.",
+      "When you feel ready, allow yourself to drift into sleep."
     ]
   },
   {
     "id": "4",
-    "title": "Осознанное дыхание",
-    "author": "Екатерина Смирнова",
+    "title": "Mindful Breathing",
+    "author": "Elena Smirnova",
     "image": "https://images.unsplash.com/photo-1591343395902-1adcb454c4e2?q=80&w=3333&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fullDescription": "Эта программа медитации подходит для всех, кто хочет развить осознанность и научиться быть более сосредоточенным. Медитация на дыхание помогает успокоить ум, снять напряжение и стать более внимательным к настоящему моменту. Практика занимает всего 10 минут и подходит как для начинающих, так и для опытных медитирующих.",
-    "trainingDuration": "10 минут",
-    "purpose": "Осознанность и концентрация",
+    "fullDescription": "This meditation program is suitable for everyone who wants to develop mindfulness and learn to be more focused. Breathing meditation helps calm the mind, relieve tension, and become more attentive to the present moment. The practice takes only 10 minutes and is suitable for both beginners and experienced meditators.",
+    "trainingDuration": "10 minutes",
+    "purpose": "Mindfulness and Concentration",
     "instructions": [
-      "Найдите тихое место, где вы можете спокойно посидеть. Сядьте удобно, спина прямая, руки лежат на коленях.",
-      "Закройте глаза и сделайте несколько глубоких вдохов и выдохов, чтобы расслабиться.",
-      "Сосредоточьтесь на своём дыхании. Наблюдайте, как воздух входит через нос и выходит, не меняя ритм дыхания.",
-      "Если мысли начинают отвлекать вас, не ругайте себя. Просто отметьте их и мягко вернитесь к наблюдению за дыханием.",
-      "Обратите внимание на ощущения в теле во время дыхания: как поднимается и опускается грудная клетка или ощущается воздух в носу.",
-      "После 10 минут осознанного дыхания медленно откройте глаза и поблагодарите себя за эту практику."
+      "Find a quiet place where you can sit peacefully. Sit comfortably with a straight back, hands resting on your knees.",
+      "Close your eyes and take a few deep breaths to relax.",
+      "Focus on your breathing. Observe how the air enters through your nose and exits without changing your breathing rhythm.",
+      "If thoughts start to distract you, don't criticize yourself. Simply note them and gently return to observing your breath.",
+      "Pay attention to the sensations in your body during breathing: how your chest rises and falls or how the air feels in your nose.",
+      "After 10 minutes of mindful breathing, slowly open your eyes and thank yourself for this practice."
     ]
   },
   {
     "id": "5",
-    "title": "Медитация благодарности",
-    "author": "Дарья Павлова",
+    "title": "Gratitude Meditation",
+    "author": "Daria Volkova",
     "image": "https://images.unsplash.com/photo-1545945774-73922eb27813?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fullDescription": "Эта медитация помогает настроиться на позитивный лад, осознать прекрасное в своей жизни и выразить благодарность за всё, что вас окружает. Практика благодарности помогает улучшить настроение, укрепить эмоциональную устойчивость и почувствовать радость от настоящего момента. Подходит для ежедневной практики.",
-    "trainingDuration": "15 минут",
-    "purpose": "Повышение настроения и осознанность",
+    "fullDescription": "This meditation helps you tune into a positive mood, recognize the beauty in your life, and express gratitude for everything around you. Gratitude practice helps improve mood, strengthen emotional resilience, and feel joy in the present moment. Suitable for daily practice.",
+    "trainingDuration": "15 minutes",
+    "purpose": "Mood Enhancement and Mindfulness",
     "instructions": [
-      "Найдите удобное место, где вас никто не потревожит. Сядьте с прямой спиной или лягте, если вам так комфортнее.",
-      "Закройте глаза и сделайте три глубоких вдоха и выдоха, чтобы расслабиться и настроиться на практику.",
-      "Начните с того, чтобы вспомнить одно или два события, вещи или людей, за которые вы благодарны. Это может быть что-то маленькое, например, тёплый солнечный день или улыбка друга.",
-      "Сосредоточьтесь на этих моментах, почувствуйте тепло и радость, которые они приносят. Постарайтесь прочувствовать благодарность в своём сердце.",
-      "Произнесите про себя или вслух: 'Я благодарен за...', добавляя то, что приходит на ум. Повторите несколько раз с разными аспектами своей жизни.",
-      "Закончите практику несколькими глубокими вдохами и поблагодарите себя за уделённое время. Откройте глаза и вернитесь к своим делам с лёгкостью и теплом."
+      "Find a comfortable place where no one will disturb you. Sit with a straight back or lie down if that's more comfortable.",
+      "Close your eyes and take three deep breaths and exhales to relax and prepare for practice.",
+      "Start by remembering one or two events, things, or people you're grateful for. It could be something small, like a warm sunny day or a friend's smile.",
+      "Focus on these moments, feel the warmth and joy they bring. Try to feel gratitude in your heart.",
+      "Say to yourself or out loud: 'I am grateful for...', adding whatever comes to mind. Repeat several times with different aspects of your life.",
+      "End the practice with a few deep breaths and slowly open your eyes. Thank yourself for this moment of solitude and restoration."
     ]
   },
   {
     "id": "6",
-    "title": "Глубокое расслабление",
-    "author": "Игорь Беляев",
+    "title": "Deep Relaxation",
+    "author": "Igor Belyaev",
     "image": "https://images.unsplash.com/photo-1603983616619-faf118d6c374?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fullDescription": "Эта медитация предназначена для полного расслабления тела и ума. Она идеально подходит для снятия физического и эмоционального напряжения после напряжённого дня. Используя технику прогрессивной релаксации, вы почувствуете, как тело становится лёгким и свободным от стресса. Медитация занимает около 30 минут и подходит для выполнения вечером или в спокойной обстановке.",
-    "trainingDuration": "30 минут",
-    "purpose": "Снятие усталости и напряжения",
+    "fullDescription": "This meditation is designed for complete relaxation of body and mind. It's ideal for relieving physical and emotional tension after a stressful day. Using progressive relaxation techniques, you'll feel your body becoming light and free from stress. The meditation takes about 30 minutes and is suitable for evening practice or in a calm environment.",
+    "trainingDuration": "30 minutes",
+    "purpose": "Fatigue and Tension Relief",
     "instructions": [
-      "Найдите тихое место, где вас никто не потревожит. Лягте на спину или сядьте удобно, если вам так комфортнее.",
-      "Закройте глаза и начните с глубокого вдоха через нос и медленного выдоха через рот. Повторите 3–5 раз.",
-      "Сосредоточьтесь на своём теле. Начните с пальцев ног и поочерёдно расслабляйте каждую часть тела, двигаясь вверх: ноги, бёдра, живот, грудь, руки, плечи, шею и лицо.",
-      "На каждом выдохе представляйте, как напряжение уходит из той части тела, на которой вы сосредоточены.",
-      "Когда всё тело расслабится, представьте, что вы находитесь в месте, где чувствуете себя спокойно и безопасно, например, на берегу моря или в тени леса.",
-      "Побудьте в этом состоянии столько, сколько вам нужно. Когда будете готовы, сделайте несколько глубоких вдохов и медленно откройте глаза."
+      "Find a quiet place where no one will disturb you. Lie on your back or sit comfortably if that's more comfortable.",
+      "Close your eyes and start with a deep breath through your nose and a slow exhale through your mouth. Repeat 3-5 times.",
+      "Focus on your body. Start with your toes and sequentially relax each part of your body, moving upward: legs, thighs, abdomen, chest, arms, shoulders, neck, and face.",
+      "With each exhale, imagine tension leaving the part of your body you're focusing on.",
+      "When your whole body is relaxed, imagine you're in a place where you feel calm and safe, such as by the sea or in the shade of a forest.",
+      "Stay in this state as long as you need. When you're ready, take a few deep breaths and slowly open your eyes."
     ]
   },
   {
     "id": "7",
-    "title": "Визуализация целей",
-    "author": "Ольга Романова",
+    "title": "Goal Visualization",
+    "author": "Olga Romanova",
     "image": "https://images.unsplash.com/photo-1510034141778-a4d065653d92?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fullDescription": "Эта медитация поможет вам сосредоточиться на своих мечтах и целях. Практика визуализации усиливает мотивацию, помогает поверить в свои возможности и настроиться на достижение желаемого. Медитация подходит как для ежедневной практики, так и для использования в моменты, когда вам нужно вдохновение и ясность.",
-    "trainingDuration": "15 минут",
-    "purpose": "Мотивация и целеустремлённость",
+    "fullDescription": "This meditation will help you focus on your dreams and goals. Visualization practice enhances motivation, helps believe in your capabilities, and sets you up for achieving your desires. The meditation is suitable for both daily practice and for moments when you need inspiration and clarity.",
+    "trainingDuration": "15 minutes",
+    "purpose": "Motivation and Determination",
     "instructions": [
-      "Найдите тихое место и сядьте в удобной позе с прямой спиной. Закройте глаза и сделайте несколько глубоких вдохов и выдохов, чтобы расслабиться.",
-      "Сосредоточьтесь на дыхании, чтобы успокоить ум и настроиться на медитацию.",
-      "Представьте свою цель или мечту так, будто она уже достигнута. Ощутите, где вы находитесь, что делаете и как себя чувствуете, когда ваша цель становится реальностью.",
-      "Визуализируйте каждый аспект этого момента: обстановку, звуки, запахи, эмоции. Постарайтесь максимально детализировать картину.",
-      "Повторяйте про себя аффирмации, например: 'Я способен достичь своей цели', 'Мои усилия приводят к успеху', 'Я достоин этого результата'.",
-      "Постепенно завершите визуализацию, сделав несколько глубоких вдохов и вернувшись в настоящее. Поблагодарите себя за этот момент осознанности и вдохновения."
+      "Find a quiet place and sit in a comfortable position with a straight back. Close your eyes and take a few deep breaths to relax.",
+      "Focus on your breathing to calm your mind and prepare for meditation.",
+      "Imagine your goal or dream as if it's already achieved. Feel where you are, what you're doing, and how you feel when your goal becomes reality.",
+      "Visualize every aspect of this moment: the environment, sounds, smells, emotions. Try to detail the picture as much as possible.",
+      "Repeat affirmations to yourself, such as: 'I am capable of achieving my goal', 'My efforts lead to success', 'I deserve this result'.",
+      "Gradually complete the visualization, taking a few deep breaths and returning to the present. Thank yourself for this moment of awareness and inspiration."
     ]
   },
   {
     "id": "8",
-    "title": "Погружение в тишину",
-    "author": "Александр Федоров",
+    "title": "Immersion in Silence",
+    "author": "Alexander Fedorov",
     "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?q=80&w=3483&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "fullDescription": "Эта медитация предназначена для глубокого внутреннего покоя и отключения от внешнего мира. Практика молчания помогает сосредоточиться на своих ощущениях и мыслях, развить осознанность и достичь гармонии. Это идеальная медитация для тех, кто ищет уединение и хочет восстановить баланс. Рекомендуется проводить её в спокойной и тихой обстановке.",
-    "trainingDuration": "40 минут",
-    "purpose": "Глубокая перезагрузка и умиротворение",
+    "fullDescription": "This meditation is designed for deep inner peace and disconnection from the external world. Silence practice helps focus on your sensations and thoughts, develop mindfulness, and achieve harmony. This is the perfect meditation for those seeking solitude and wanting to restore balance. Recommended to practice in a calm and quiet environment.",
+    "trainingDuration": "40 minutes",
+    "purpose": "Deep Reset and Peace",
     "instructions": [
-      "Найдите уединённое место, где вас не будут беспокоить. Сядьте удобно, спина прямая, или лягте, если вам так комфортнее.",
-      "Закройте глаза и сделайте несколько глубоких вдохов и выдохов, чтобы расслабиться и настроиться на медитацию.",
-      "Погрузитесь в полное молчание. Не стремитесь к определённым мыслям или ощущениям — просто наблюдайте за происходящим внутри вас.",
-      "Если появляются посторонние мысли, не сопротивляйтесь. Просто дайте им быть, как облакам, проходящим мимо, и возвращайте внимание к своему дыханию или ощущениям тела.",
-      "Оставайтесь в этом состоянии столько, сколько вам комфортно. Позвольте тишине стать вашим проводником к внутреннему покою.",
-      "В конце медитации сделайте несколько глубоких вдохов и медленно откройте глаза. Поблагодарите себя за этот момент уединения и восстановления."
+      "Find a secluded place where you won't be disturbed. Sit comfortably with a straight back or lie down if that's more comfortable.",
+      "Close your eyes and take a few deep breaths to relax and prepare for meditation.",
+      "Immerse yourself in complete silence. Don't strive for specific thoughts or sensations - just observe what's happening inside you.",
+      "If distracting thoughts appear, don't resist them. Just let them be, like clouds passing by, and return your attention to your breathing or body sensations.",
+      "Stay in this state as long as you're comfortable. Let silence become your guide to inner peace.",
+      "At the end of the meditation, take a few deep breaths and slowly open your eyes. Thank yourself for this moment of solitude and restoration."
     ]
   }
 ]

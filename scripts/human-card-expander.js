@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
                 <div class="close-btn">✕</div>
             `;
-            
+
             const img = card.querySelector('img');
             if (img.complete) {
                 img.classList.add("loaded");
@@ -42,10 +42,10 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("data/people.json")
         .then(response => {
             if (!response.ok) {
-                throw new Error("Не удалось загрузить данные");
+                throw new Error("Failed to load data");
             }
             return response.json();
         })
         .then(data => generateCards(data))
-        .catch(error => console.error("Ошибка:", error));
+        .catch(error => console.error("Error:", error));
 });

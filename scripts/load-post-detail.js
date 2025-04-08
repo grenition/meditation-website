@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
     const postId = urlParams.get('id');
 
@@ -10,15 +10,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (post) {
                     displayPostDetails(post);
                 } else {
-                    displayError('Пост не найден.');
+                    displayError('Post not found.');
                 }
             })
             .catch(error => {
                 console.error('Error loading:', error);
-                displayError('Ошибка при загрузке поста.');
+                displayError('Error loading post.');
             });
     } else {
-        displayError('Идентификатор поста не указан.');
+        displayError('Post ID not specified.');
     }
 
     function displayPostDetails(post) {
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
             postImage.style.display = 'none';
         }
 
-        
+
         if (postImage.complete) {
             postImage.classList.add("loaded");
         } else {
